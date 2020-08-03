@@ -9,6 +9,8 @@ import purpleHeartIcons from "../../assets/images/icons/purple-heart.svg";
 
 import "./styles.css";
 
+import { Link } from "react-router-dom";
+
 export default function Landing() {
   return (
     <div id="page-landing">
@@ -21,14 +23,14 @@ export default function Landing() {
         <img src={LogoLanding} alt="" className="hero-image" />
 
         <div className="button-container">
-          <a href="" className="study">
+          <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
-          <a href="" className="give-classes">
+          </Link>
+          <Link to="/give-classes" className="give-classes">
             <img src={giveClasssesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </div>
 
         <span className="total-connections">
