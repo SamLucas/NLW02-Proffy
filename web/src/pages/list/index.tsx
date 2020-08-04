@@ -1,9 +1,13 @@
 import React from "react";
 
-// import { Container } from './styles';
+import PageHeader from "../../components/PageHeader";
 
-const Teacher: React.FC = () => {
-  return <p>Teachers</p>;
-};
+import "./styles.css";
 
-export default Teacher;
+export default function Teacher() {
+  return (
+    <div id="page-teacher-list" className="container">
+      <PageHeader title="Este são os proffys disponiveis." />
+    </div>
+  );
+}
