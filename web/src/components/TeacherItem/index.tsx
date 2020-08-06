@@ -12,8 +12,8 @@ const TeacherItem = () => {
           alt="Samuel Lucas"
         />
         <div>
-          <strong>Diego Fernandes</strong>
-          <span>Quimica</span>
+          <strong>Samuel Lucas</strong>
+          <span>Educação Física</span>
         </div>
       </header>
 
